@@ -7,6 +7,10 @@ on:
         description: Pipeline ID
         required: true
         type: string
+      branch:
+        description: Branch to test
+        required: true
+        type: string
 
 jobs:
   test:
@@ -14,6 +18,8 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
 
       - uses: actions/setup-node@v4
         with:
