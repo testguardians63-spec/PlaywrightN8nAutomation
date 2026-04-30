@@ -1,0 +1,1021 @@
+{
+  "US-001-TC-01": {
+    "tcId": "US-001-TC-01",
+    "module": "Login Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Deterministic fast-path: SRS credentials applied to happy-path test"
+  },
+  "US-001-TC-02": {
+    "tcId": "US-001-TC-02",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "password",
+        "testValue": "wrongpassword",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Deliberately deviating from the effective credentials to test negative scenarios."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for negative login scenario using valid username and invalid password."
+  },
+  "US-001-TC-03": {
+    "tcId": "US-001-TC-03",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Leaving the username field empty to test negative scenario."
+      },
+      {
+        "inputField": "password",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Leaving the password field empty to test negative scenario."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for negative login scenario where both username and password fields are left empty."
+  },
+  "US-001-TC-04": {
+    "tcId": "US-001-TC-04",
+    "module": "Success Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "email",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "firstName",
+        "testValue": "Test",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "lastName",
+        "testValue": "Guardian",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set includes all effective credentials used for positive login and registration tests."
+  },
+  "US-001-TC-05": {
+    "tcId": "US-001-TC-05",
+    "module": "Success Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "email",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "firstName",
+        "testValue": "Test",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "lastName",
+        "testValue": "Guardian",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set uses the effective credentials provided by the pipeline to validate the Success Page."
+  },
+  "US-002-TC-01": {
+    "tcId": "US-002-TC-01",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "incorrectUser",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "This value deliberately deviates from the effective credentials to test the negative scenario."
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "This value is the effective password, as per the credential source."
+      },
+      {
+        "inputField": "email",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "This value is left empty to test the negative scenario where the email field is not filled."
+      },
+      {
+        "inputField": "firstName",
+        "testValue": "Test",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "This value is the effective first name, as per the credential source."
+      },
+      {
+        "inputField": "lastName",
+        "testValue": "Guardian",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "This value is the effective last name, as per the credential source."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for negative login scenario with incorrect username and empty email field."
+  },
+  "US-003-TC-01": {
+    "tcId": "US-003-TC-01",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials as specified by the SRS."
+      },
+      {
+        "inputField": "password",
+        "testValue": "incorrectPassword",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Intentionally using an incorrect password to test negative scenario."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for negative login scenario using effective credentials."
+  },
+  "US-004-TC-01": {
+    "tcId": "US-004-TC-01",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Empty field to test submission without username"
+      },
+      {
+        "inputField": "password",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Empty field to test submission without password"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for submitting empty fields on the login page"
+  },
+  "US-004-TC-02": {
+    "tcId": "US-004-TC-02",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials as specified by the pipeline."
+      },
+      {
+        "inputField": "password",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Leaving the password field empty as per the test steps."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for a negative login scenario with valid username and empty password."
+  },
+  "US-005-TC-01": {
+    "tcId": "US-005-TC-01",
+    "module": "Success Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Deterministic fast-path: SRS credentials applied to happy-path test"
+  },
+  "US-005-TC-02": {
+    "tcId": "US-005-TC-02",
+    "module": "Success Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Deterministic fast-path: SRS credentials applied to happy-path test"
+  },
+  "US-005-TC-03": {
+    "tcId": "US-005-TC-03",
+    "module": "Success Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "invaliduser",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "This value is intentionally invalid to test the negative scenario."
+      },
+      {
+        "inputField": "password",
+        "testValue": "InvalidPassword",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "This value is intentionally invalid to test the negative scenario."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for negative login scenario with invalid username and password."
+  },
+  "US-005-TC-04": {
+    "tcId": "US-005-TC-04",
+    "module": "Success Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student123",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "A different username to test for incorrect credentials"
+      },
+      {
+        "inputField": "password",
+        "testValue": "WrongPassword123",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "A different password to test for incorrect credentials"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for negative login test with different username and password"
+  },
+  "US-005-TC-05": {
+    "tcId": "US-005-TC-05",
+    "module": "Success Page",
+    "testCategory": "Boundary",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "st",
+        "dataCategory": "boundary",
+        "isEdgeCase": true,
+        "notes": "Minimum length username as per field limit"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Pass",
+        "dataCategory": "boundary",
+        "isEdgeCase": true,
+        "notes": "Minimum length password as per field limit"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for boundary conditions on username and password fields."
+  },
+  "US-005-TC-06": {
+    "tcId": "US-005-TC-06",
+    "module": "Success Page",
+    "testCategory": "Boundary",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Fallback — LLM output unparseable; using srs credentials"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Fallback — using srs credentials"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Fallback test data (LLM parse failed) using srs credentials"
+  },
+  "US-006-TC-01": {
+    "tcId": "US-006-TC-01",
+    "module": "Login Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Deterministic fast-path: SRS credentials applied to happy-path test"
+  },
+  "US-006-TC-02": {
+    "tcId": "US-006-TC-02",
+    "module": "Login Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Deterministic fast-path: SRS credentials applied to happy-path test"
+  },
+  "US-006-TC-03": {
+    "tcId": "US-006-TC-03",
+    "module": "Login Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Deterministic fast-path: SRS credentials applied to happy-path test"
+  },
+  "US-006-TC-04": {
+    "tcId": "US-006-TC-04",
+    "module": "Login Page",
+    "testCategory": "Positive",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "SRS-provided credential, used verbatim for happy-path scenario"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Deterministic fast-path: SRS credentials applied to happy-path test"
+  },
+  "US-006-TC-05": {
+    "tcId": "US-006-TC-05",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "invaliduser",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "To test an invalid username, as per the negative test rules."
+      },
+      {
+        "inputField": "password",
+        "testValue": "InvalidPassword123",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "To test an invalid password, as per the negative test rules."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for invalid username and password inputs."
+  },
+  "US-006-TC-06": {
+    "tcId": "US-006-TC-06",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "password",
+        "testValue": "Short1",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Password is too short (less than 8 characters)"
+      },
+      {
+        "inputField": "password",
+        "testValue": "NoSpecialChars123",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Password does not contain any special characters"
+      },
+      {
+        "inputField": "password",
+        "testValue": "12345678",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Password is a common weak password"
+      },
+      {
+        "inputField": "password",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": true,
+        "notes": "Password field is left empty"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set includes invalid and edge case password values to verify proper handling of weak and empty passwords."
+  },
+  "US-006-TC-07": {
+    "tcId": "US-006-TC-07",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "invaliduser",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Using an invalid username to test the negative scenario."
+      },
+      {
+        "inputField": "password",
+        "testValue": "InvalidPassword",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Using an invalid password to test the negative scenario."
+      },
+      {
+        "inputField": "email",
+        "testValue": "invalidemail@com",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Using an invalid email format to test the negative scenario."
+      },
+      {
+        "inputField": "firstName",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Using an empty first name to test the negative scenario."
+      },
+      {
+        "inputField": "lastName",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Using an empty last name to test the negative scenario."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set includes invalid username, password, email, and empty first/last name fields to validate negative scenarios."
+  },
+  "US-006-TC-08": {
+    "tcId": "US-006-TC-08",
+    "module": "Login Page",
+    "testCategory": "Negative",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "invalidUser",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "To test the login with an invalid username."
+      },
+      {
+        "inputField": "password",
+        "testValue": "WrongPassword123",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "To test the login with an invalid password."
+      },
+      {
+        "inputField": "username",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": true,
+        "notes": "To test the login with an empty username field."
+      },
+      {
+        "inputField": "password",
+        "testValue": "",
+        "dataCategory": "invalid",
+        "isEdgeCase": true,
+        "notes": "To test the login with an empty password field."
+      },
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "To test the login with the effective username."
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "To test the login with the effective password."
+      },
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "To test the login with the effective username."
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "To test the login with the effective password."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set for negative login scenarios including invalid credentials, empty fields, and valid credentials."
+  },
+  "US-006-TC-09": {
+    "tcId": "US-006-TC-09",
+    "module": "Login Page",
+    "testCategory": "Boundary",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "st",
+        "dataCategory": "boundary",
+        "isEdgeCase": true,
+        "notes": "Testing the minimum length boundary for the username field."
+      },
+      {
+        "inputField": "username",
+        "testValue": "student12345678901",
+        "dataCategory": "boundary",
+        "isEdgeCase": true,
+        "notes": "Testing the maximum length boundary for the username field."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set includes boundary values for the username field."
+  },
+  "US-006-TC-10": {
+    "tcId": "US-006-TC-10",
+    "module": "Login Page",
+    "testCategory": "Boundary",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Fallback — LLM output unparseable; using srs credentials"
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "credential",
+        "isEdgeCase": false,
+        "notes": "Fallback — using srs credentials"
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Fallback test data (LLM parse failed) using srs credentials"
+  },
+  "US-006-TC-11": {
+    "tcId": "US-006-TC-11",
+    "module": "Login Page",
+    "testCategory": "Boundary",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials as specified by the SRS."
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials as specified by the SRS."
+      },
+      {
+        "inputField": "email",
+        "testValue": "student",
+        "dataCategory": "invalid",
+        "isEdgeCase": false,
+        "notes": "Using the username as the email field to test invalid input."
+      },
+      {
+        "inputField": "firstName",
+        "testValue": "Test",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials as specified by the SRS."
+      },
+      {
+        "inputField": "lastName",
+        "testValue": "Guardian",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials as specified by the SRS."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set includes valid and invalid input for username, password, email, first name, and last name fields to verify the visibility and enablement of the submit button."
+  },
+  "US-006-TC-12": {
+    "tcId": "US-006-TC-12",
+    "module": "Login Page",
+    "testCategory": "Boundary",
+    "testDataRows": [
+      {
+        "inputField": "username",
+        "testValue": "student",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "password",
+        "testValue": "Password123",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "email",
+        "testValue": "student",
+        "dataCategory": "boundary",
+        "isEdgeCase": true,
+        "notes": "Using the username as the email to test the boundary of the field length."
+      },
+      {
+        "inputField": "firstName",
+        "testValue": "Test",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      },
+      {
+        "inputField": "lastName",
+        "testValue": "Guardian",
+        "dataCategory": "valid",
+        "isEdgeCase": false,
+        "notes": "Using the effective credentials provided by the pipeline."
+      }
+    ],
+    "credentialsUsed": {
+      "username": "student",
+      "password": "Password123",
+      "email": "student",
+      "firstName": "Test",
+      "lastName": "Guardian"
+    },
+    "credentialSource": "srs",
+    "navigationUrl": "https://practicetestautomation.com/practice-test-login/",
+    "summary": "Test data set includes valid credentials and boundary conditions for the email field."
+  }
+}
