@@ -32,14 +32,24 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Run Playwright tests
-        id: test_run
+        run: npx playwright test --project=chromium --workers=1
+        continue-on-error: true
+
+      - name: Push results to branch
+        if: always()
+        env:
+          BRANCH: ${{ github.event.inputs.branch }}
         run: |
-          npx playwright test --project=chromium --workers=1 --reporter=json 2>&1 | tee playwright-output.json || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -f test-results/results.json ]; then
-            echo "results_json=$(cat test-results/results.json | base64 -w 0)" >> $GITHUB_OUTPUT
-          elif [ -f playwright-output.json ]; then
-            echo "results_json=$(cat playwright-output.json | base64 -w 0)" >> $GITHUB_OUTPUT
+            cp test-results/results.json execution-results.json
+          else
+            echo '{"error":"no results","stats":{"expected":0,"unexpected":0,"skipped":0,"duration":0}}' > execution-results.json
           fi
+          git add execution-results.json -f
+          git commit -m "ci: execution results [skip ci]" || true
+          git push origin HEAD:${BRANCH} || true
 
       - name: Upload test results
         if: always()
@@ -49,6 +59,5 @@ jobs:
           path: |
             test-results/
             playwright-report/
-            playwright-output.json
           retention-days: 30
           if-no-files-found: ignore
