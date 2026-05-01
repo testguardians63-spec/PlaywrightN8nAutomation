@@ -29,7 +29,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 873,
+                      "duration": 637,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading '0')",
                         "stack": "TypeError: Cannot read properties of undefined (reading '0')\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-001-TC-02.spec.js:22:48",
@@ -53,7 +53,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:03:42.486Z",
+                      "startTime": "2026-05-01T13:13:53.348Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -125,7 +125,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 6175,
+                      "duration": 5894,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Please enter your username and password')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Please enter your username and password')\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Please enter your username and password')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Please enter your username and password')\u001b[22m\n\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-001-TC-03.spec.js:29:80",
@@ -149,7 +149,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:03:46.526Z",
+                      "startTime": "2026-05-01T13:13:55.971Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -221,7 +221,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 842,
+                      "duration": 535,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading 'username')",
                         "stack": "TypeError: Cannot read properties of undefined (reading 'username')\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-001-TC-04.spec.js:20:52",
@@ -245,7 +245,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:03:54.593Z",
+                      "startTime": "2026-05-01T13:14:03.739Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -317,7 +317,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 799,
+                      "duration": 567,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading 'username')",
                         "stack": "TypeError: Cannot read properties of undefined (reading 'username')\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-001-TC-05.spec.js:20:52",
@@ -341,7 +341,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:03:57.343Z",
+                      "startTime": "2026-05-01T13:14:06.142Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -413,7 +413,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 887,
+                      "duration": 539,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-002-TC-01.spec.js:20:40",
@@ -437,7 +437,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:00.040Z",
+                      "startTime": "2026-05-01T13:14:08.570Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -509,7 +509,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 841,
+                      "duration": 591,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-003-TC-01.spec.js:20:40",
@@ -533,7 +533,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:02.912Z",
+                      "startTime": "2026-05-01T13:14:10.970Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -605,7 +605,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 873,
+                      "duration": 539,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-004-TC-01.spec.js:20:40",
@@ -629,7 +629,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:05.629Z",
+                      "startTime": "2026-05-01T13:14:13.415Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -701,7 +701,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 794,
+                      "duration": 565,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-004-TC-02.spec.js:20:40",
@@ -725,7 +725,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:08.375Z",
+                      "startTime": "2026-05-01T13:14:15.810Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -797,7 +797,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 843,
+                      "duration": 531,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading 'username')",
                         "stack": "TypeError: Cannot read properties of undefined (reading 'username')\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-005-TC-01.spec.js:20:52",
@@ -821,7 +821,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:11.038Z",
+                      "startTime": "2026-05-01T13:14:18.222Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -893,7 +893,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 827,
+                      "duration": 578,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading 'username')",
                         "stack": "TypeError: Cannot read properties of undefined (reading 'username')\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-005-TC-02.spec.js:22:52",
@@ -917,7 +917,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:13.757Z",
+                      "startTime": "2026-05-01T13:14:20.614Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -989,7 +989,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 813,
+                      "duration": 542,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-005-TC-03.spec.js:16:40",
@@ -1013,7 +1013,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:16.458Z",
+                      "startTime": "2026-05-01T13:14:23.046Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1085,7 +1085,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 792,
+                      "duration": 580,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-005-TC-04.spec.js:20:40",
@@ -1109,7 +1109,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:19.143Z",
+                      "startTime": "2026-05-01T13:14:25.452Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1181,7 +1181,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 845,
+                      "duration": 519,
                       "error": {
                         "message": "TypeError: Cannot read properties of undefined (reading '0')",
                         "stack": "TypeError: Cannot read properties of undefined (reading '0')\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-005-TC-05.spec.js:22:48",
@@ -1205,7 +1205,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:21.805Z",
+                      "startTime": "2026-05-01T13:14:27.893Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1277,7 +1277,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 6797,
+                      "duration": 6334,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button:has-text(\"Log out\")')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('button:has-text(\"Log out\")')\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button:has-text(\"Log out\")')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('button:has-text(\"Log out\")')\u001b[22m\n\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-005-TC-06.spec.js:30:32",
@@ -1301,7 +1301,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:24.522Z",
+                      "startTime": "2026-05-01T13:14:30.278Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1373,7 +1373,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 860,
+                      "duration": 568,
                       "error": {
                         "message": "TypeError: loginPage.getUsernameInput is not a function",
                         "stack": "TypeError: loginPage.getUsernameInput is not a function\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-01.spec.js:22:28",
@@ -1397,7 +1397,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:33.270Z",
+                      "startTime": "2026-05-01T13:14:38.499Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1469,12 +1469,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 768,
+                      "duration": 485,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:36.000Z",
+                      "startTime": "2026-05-01T13:14:40.954Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1520,7 +1520,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 782,
+                      "duration": 570,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-03.spec.js:20:40",
@@ -1544,7 +1544,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:38.594Z",
+                      "startTime": "2026-05-01T13:14:43.248Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1616,12 +1616,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 774,
+                      "duration": 485,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:41.254Z",
+                      "startTime": "2026-05-01T13:14:45.672Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1667,7 +1667,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 801,
+                      "duration": 539,
                       "error": {
                         "message": "TypeError: loginPage.getUsernameInput is not a function",
                         "stack": "TypeError: loginPage.getUsernameInput is not a function\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-05.spec.js:20:28",
@@ -1691,7 +1691,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:43.898Z",
+                      "startTime": "2026-05-01T13:14:47.975Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1763,7 +1763,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 773,
+                      "duration": 538,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-06.spec.js:20:40",
@@ -1787,7 +1787,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:46.591Z",
+                      "startTime": "2026-05-01T13:14:50.377Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1859,7 +1859,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 823,
+                      "duration": 573,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-07.spec.js:20:40",
@@ -1883,7 +1883,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:49.251Z",
+                      "startTime": "2026-05-01T13:14:52.776Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1955,7 +1955,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 6104,
+                      "duration": 5772,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Test Login\"\u001b[39m\nReceived: \u001b[31m\"Test Login\u001b[7m | Practice Test Automation\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    9 × unexpected value \"Test Login | Practice Test Automation\"\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Test Login\"\u001b[39m\nReceived: \u001b[31m\"Test Login\u001b[7m | Practice Test Automation\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    9 × unexpected value \"Test Login | Practice Test Automation\"\u001b[22m\n\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-08.spec.js:20:24",
@@ -1979,7 +1979,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:51.960Z",
+                      "startTime": "2026-05-01T13:14:55.220Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -2051,7 +2051,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 864,
+                      "duration": 586,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-09.spec.js:20:40",
@@ -2075,7 +2075,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:04:59.936Z",
+                      "startTime": "2026-05-01T13:15:02.843Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -2147,7 +2147,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 785,
+                      "duration": 555,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-10.spec.js:20:40",
@@ -2171,7 +2171,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:05:02.690Z",
+                      "startTime": "2026-05-01T13:15:05.277Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -2243,7 +2243,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 845,
+                      "duration": 581,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-11.spec.js:20:40",
@@ -2267,7 +2267,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:05:05.365Z",
+                      "startTime": "2026-05-01T13:15:07.690Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -2339,7 +2339,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 820,
+                      "duration": 521,
                       "error": {
                         "message": "TypeError: c is not iterable",
                         "stack": "TypeError: c is not iterable\n    at /home/runner/work/PlaywrightN8nAutomation/PlaywrightN8nAutomation/tests/US-006-TC-12.spec.js:22:26",
@@ -2363,7 +2363,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-05-01T13:05:08.107Z",
+                      "startTime": "2026-05-01T13:15:10.125Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -2424,8 +2424,8 @@
     }
   ],
   "stats": {
-    "startTime": "2026-05-01T13:05:09.173Z",
-    "duration": 63039.007,
+    "startTime": "2026-05-01T13:15:10.869Z",
+    "duration": 54209.045,
     "expected": 2,
     "skipped": 0,
     "unexpected": 24,
