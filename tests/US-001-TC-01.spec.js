@@ -22,7 +22,7 @@ test.describe('Login Page', () => {
     await loginPage.login(testData.credentialsUsed.username, testData.credentialsUsed.password);
 
     // Expected: User is redirected to the Success Page
-    await expect(page).toHaveURL(/practicetestautomation.com/logged-in-successfully\//);
+    await expect(page).toHaveURL(/practicetestautomation\.com\/logged-in-successfully\//);
 
     // Expected: The page body contains the word 'Congratulations' and the phrase 'successfully logged in'
     await expect(page).toContainText('Congratulations');
