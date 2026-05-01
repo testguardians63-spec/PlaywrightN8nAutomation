@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/commit/63840079b14818dcae1bdc7a37b16896a034041c",
-        "commitHash": "63840079b14818dcae1bdc7a37b16896a034041c",
-        "buildHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/actions/runs/25213274037"
+        "commitHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/commit/f7dfb09a0f44067d953b4367592923994000526a",
+        "commitHash": "f7dfb09a0f44067d953b4367592923994000526a",
+        "buildHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/actions/runs/25213431810"
       },
       "gitCommit": {
-        "shortHash": "885d674",
-        "hash": "885d674c9fd9ccfb46760972025cbbc890ab2ce8",
-        "subject": "feat(PIPE_1777565309735): generated Playwright framework",
-        "body": "feat(PIPE_1777565309735): generated Playwright framework\n\nDocument: SRS — Practice Test Login | v1.0.0 | 2026-04-21 Page 1\nFiles: 34",
+        "shortHash": "e0eb5e5",
+        "hash": "e0eb5e589bc10393213d65532ad21b13dc90648f",
+        "subject": "ci: execution results [skip ci]",
+        "body": "ci: execution results [skip ci]\n",
         "author": {
-          "name": "Test Guardians",
-          "email": "testguardians63@gmail.com",
-          "time": 1777569394000
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com",
+          "time": 1777636277000
         },
         "committer": {
-          "name": "Test Guardians",
-          "email": "testguardians63@gmail.com",
-          "time": 1777569394000
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com",
+          "time": 1777636277000
         },
         "branch": "pipeline-PIPE_1777565309735"
       }
@@ -42,24 +42,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/commit/63840079b14818dcae1bdc7a37b16896a034041c",
-            "commitHash": "63840079b14818dcae1bdc7a37b16896a034041c",
-            "buildHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/actions/runs/25213274037"
+            "commitHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/commit/f7dfb09a0f44067d953b4367592923994000526a",
+            "commitHash": "f7dfb09a0f44067d953b4367592923994000526a",
+            "buildHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/actions/runs/25213431810"
           },
           "gitCommit": {
-            "shortHash": "885d674",
-            "hash": "885d674c9fd9ccfb46760972025cbbc890ab2ce8",
-            "subject": "feat(PIPE_1777565309735): generated Playwright framework",
-            "body": "feat(PIPE_1777565309735): generated Playwright framework\n\nDocument: SRS — Practice Test Login | v1.0.0 | 2026-04-21 Page 1\nFiles: 34",
+            "shortHash": "e0eb5e5",
+            "hash": "e0eb5e589bc10393213d65532ad21b13dc90648f",
+            "subject": "ci: execution results [skip ci]",
+            "body": "ci: execution results [skip ci]\n",
             "author": {
-              "name": "Test Guardians",
-              "email": "testguardians63@gmail.com",
-              "time": 1777569394000
+              "name": "github-actions[bot]",
+              "email": "github-actions[bot]@users.noreply.github.com",
+              "time": 1777636277000
             },
             "committer": {
-              "name": "Test Guardians",
-              "email": "testguardians63@gmail.com",
-              "time": 1777569394000
+              "name": "github-actions[bot]",
+              "email": "github-actions[bot]@users.noreply.github.com",
+              "time": 1777636277000
             },
             "branch": "pipeline-PIPE_1777565309735"
           }
@@ -79,24 +79,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/commit/63840079b14818dcae1bdc7a37b16896a034041c",
-            "commitHash": "63840079b14818dcae1bdc7a37b16896a034041c",
-            "buildHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/actions/runs/25213274037"
+            "commitHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/commit/f7dfb09a0f44067d953b4367592923994000526a",
+            "commitHash": "f7dfb09a0f44067d953b4367592923994000526a",
+            "buildHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/actions/runs/25213431810"
           },
           "gitCommit": {
-            "shortHash": "885d674",
-            "hash": "885d674c9fd9ccfb46760972025cbbc890ab2ce8",
-            "subject": "feat(PIPE_1777565309735): generated Playwright framework",
-            "body": "feat(PIPE_1777565309735): generated Playwright framework\n\nDocument: SRS — Practice Test Login | v1.0.0 | 2026-04-21 Page 1\nFiles: 34",
+            "shortHash": "e0eb5e5",
+            "hash": "e0eb5e589bc10393213d65532ad21b13dc90648f",
+            "subject": "ci: execution results [skip ci]",
+            "body": "ci: execution results [skip ci]\n",
             "author": {
-              "name": "Test Guardians",
-              "email": "testguardians63@gmail.com",
-              "time": 1777569394000
+              "name": "github-actions[bot]",
+              "email": "github-actions[bot]@users.noreply.github.com",
+              "time": 1777636277000
             },
             "committer": {
-              "name": "Test Guardians",
-              "email": "testguardians63@gmail.com",
-              "time": 1777569394000
+              "name": "github-actions[bot]",
+              "email": "github-actions[bot]@users.noreply.github.com",
+              "time": 1777636277000
             },
             "branch": "pipeline-PIPE_1777565309735"
           }
@@ -116,24 +116,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/commit/63840079b14818dcae1bdc7a37b16896a034041c",
-            "commitHash": "63840079b14818dcae1bdc7a37b16896a034041c",
-            "buildHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/actions/runs/25213274037"
+            "commitHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/commit/f7dfb09a0f44067d953b4367592923994000526a",
+            "commitHash": "f7dfb09a0f44067d953b4367592923994000526a",
+            "buildHref": "https://github.com/testguardians63-spec/PlaywrightN8nAutomation/actions/runs/25213431810"
           },
           "gitCommit": {
-            "shortHash": "885d674",
-            "hash": "885d674c9fd9ccfb46760972025cbbc890ab2ce8",
-            "subject": "feat(PIPE_1777565309735): generated Playwright framework",
-            "body": "feat(PIPE_1777565309735): generated Playwright framework\n\nDocument: SRS — Practice Test Login | v1.0.0 | 2026-04-21 Page 1\nFiles: 34",
+            "shortHash": "e0eb5e5",
+            "hash": "e0eb5e589bc10393213d65532ad21b13dc90648f",
+            "subject": "ci: execution results [skip ci]",
+            "body": "ci: execution results [skip ci]\n",
             "author": {
-              "name": "Test Guardians",
-              "email": "testguardians63@gmail.com",
-              "time": 1777569394000
+              "name": "github-actions[bot]",
+              "email": "github-actions[bot]@users.noreply.github.com",
+              "time": 1777636277000
             },
             "committer": {
-              "name": "Test Guardians",
-              "email": "testguardians63@gmail.com",
-              "time": 1777569394000
+              "name": "github-actions[bot]",
+              "email": "github-actions[bot]@users.noreply.github.com",
+              "time": 1777636277000
             },
             "branch": "pipeline-PIPE_1777565309735"
           }
@@ -180,8 +180,8 @@
     }
   ],
   "stats": {
-    "startTime": "2026-05-01T11:51:16.644Z",
-    "duration": 387.533,
+    "startTime": "2026-05-01T11:57:24.383Z",
+    "duration": 393.98299999999995,
     "expected": 0,
     "skipped": 0,
     "unexpected": 0,
